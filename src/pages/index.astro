@@ -1,5 +1,6 @@
 ---
 import Header from "../Components/Header.astro"
+import Footer from "../Components/Footer.astro"
 ---
 
 <html lang="en">
@@ -10,7 +11,19 @@ import Header from "../Components/Header.astro"
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
 	</head>
+	<Header/>
 	<body>
-		<Header/>
+		<driv class="grid_1-1">
+			<div class="col">
+				<h1>HELLO</h1>
+				<p> Hej mit navn er Victoria</p>
+			</div>
+
+			<div class="col">
+				<img src="Blomster_1.png" alt="">
+			</div>
+		</driv>
+
 	</body>
+	<Footer/>
 </html>
